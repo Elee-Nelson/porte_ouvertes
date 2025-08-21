@@ -1,0 +1,24 @@
+@import url('reset.css');
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #1c4a4f;
+}
+
+#choix_programme {
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    img {
+        object-fit: cover;
+    }
+}
+
+#date {
+
+}
+
+#ambassadeurs {
+    display: flex;
+}
