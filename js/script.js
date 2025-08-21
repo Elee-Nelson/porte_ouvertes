@@ -9,9 +9,15 @@ const boutons = document.querySelector(".bouton");
 
 boutons.addEventListener("click", e=> {
     e.preventDefault();
+
+    if (boutons.classList.contains("fin")) return;
+
     boutons.classList.remove("animation");
+
+    boutons.classList.add("fin");
     
     setTimeout(function() {
         boutons.classList.add("animation");
-    }, 300);
+    }, 100);
+
 })
