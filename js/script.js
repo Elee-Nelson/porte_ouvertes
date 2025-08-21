@@ -9,5 +9,9 @@ const boutons = document.querySelector(".bouton");
 
 boutons.addEventListener("click", e=> {
     e.preventDefault();
-    console.log("touché");
+    boutons.classList.remove("animation");
+    
+    setTimeout(function() {
+        boutons.classList.add("animation");
+    }, 300);
 })
