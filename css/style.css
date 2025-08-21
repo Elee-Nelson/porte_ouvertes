@@ -15,10 +15,68 @@ header {
     }
 }
 
-#date {
-
+#date h2{
+    text-align: center;
+    font-size: 48px;
 }
 
 #ambassadeurs {
     display: flex;
+    flex-direction: column;
+    margin: 50px auto 0px auto;
+    width: 1500px;
+}
+
+#ambassadeurs h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+#presentation_ambassadeurs {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ambassadeurs .ambassadeur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#ambassadeurs .ambassadeur img{
+    width: 400px;
+}
+
+#ambassadeurs .ambassadeur div h3{
+    text-align: center;
+}
+
+#ambassadeurs .ambassadeur div p{
+    text-align: center;
+    width: 350px;
+}
+
+#newsletter {
+    width: 750px;
+    margin: 50px auto 0 auto;
+}
+
+#newsletter form {
+    
+}
+
+#newsletter form #courriel {
+    width: 600px;
+    color: grey;
+}
+
+#newsletter form #btn_form_submit {
+    width: 125px;
+}
+
+footer {
+    height: 100px;
+    background-color: #1c4a4f;
 }
