@@ -8,10 +8,14 @@ header {
 
 #choix_programme {
     display: flex;
-    height: 500px;
-    width: 1000px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     img {
         object-fit: cover;
+        height: 300px;
+        width: 700px;
+        margin-right: 60px;
     }
 }
 
