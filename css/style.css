@@ -1,0 +1,6 @@
+@import url('reset.css');
+
+header {
+    display: flex;
+    align-items: center;
+}
