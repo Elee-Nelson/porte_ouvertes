@@ -16,5 +16,9 @@ header {
 }
 
 #date {
-    
+
+}
+
+#ambassadeurs {
+    display: flex;
 }
