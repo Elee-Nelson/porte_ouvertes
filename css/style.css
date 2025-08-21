@@ -3,4 +3,14 @@
 header {
     display: flex;
     align-items: center;
+    background-color: #1c4a4f;
+}
+
+div {
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    img {
+        object-fit: cover;
+    }
 }
