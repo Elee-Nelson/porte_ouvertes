@@ -6,7 +6,7 @@ header {
     background-color: #1c4a4f;
 }
 
-div {
+#choix_programme {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -17,4 +17,12 @@ div {
         width: 700px;
         margin-right: 60px;
     }
+}
+
+#date {
+
+}
+
+#ambassadeurs {
+    display: flex;
 }
